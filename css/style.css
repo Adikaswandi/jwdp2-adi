@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: beige;
+    font-family: sans-serif;
+}
+
+/* header */
+header, nav, section{
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+    border-bottom: 2px solid grey;
+}
+
+header img {
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+}
+
+header h1 {
+    font-size:40px;
+    font-weight: normal;
+    padding-top: 25px;
+}
+
+.fix {
+    clear: both;
+}
+/* end header */
+
+/* navbar */
+nav {
+    padding: 20px 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 1rem;
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.menu-left {
+    float: left;
+}
+
+.menu-right {
+    float: right;
+}
+
+.login {
+    margin-right: 40px;
+}
+/* end navbar */
+
+
+/* content */
+section h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.container-article article{
+    width: 300px;
+    text-align: justify;
+    float: left;
+    margin-left: 25px;
+}
+
+.container-article article img {
+    width: 300px;
+}
+
+.container-article article button {
+    display: block;
+    margin: 20px auto;
+
+}
+
+/* end content */
+
+/* biodata */
+.container-bio img {
+    width: 150px;
+    margin-left: 40px;
+    float: left;
+}
+
+.info-bio {
+    width: 780px;
+    float: right;
+    margin-right: 20px;
+}
+
+.container-bio {
+    padding: 20px 0;
+}
+
+.container-bio p {
+    text-align: justify;
+}
+
+.container-bio h3.nama {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.container-bio h3.hobi {
+    padding-top: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.hobi, ul li {
+    text-align: right;
+    list-style: none;
+}
+
+/* endbiodata */
+
